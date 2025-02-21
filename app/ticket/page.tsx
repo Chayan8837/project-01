@@ -27,7 +27,7 @@ const TicketContent = () => {
 
       {/* Apply Filters */}
       <div className="mb-4 flex items-center gap-4">
-        <button className="flex items-center gap-2  border px-4 py-2 rounded-lg bg-white hover:bg-gray-100 text-gray-700">
+        <button className="flex items-center gap-2   px-4 py-2 rounded-lg bg-transparent hover:bg-gray-100 text-gray-700">
            Apply Filters
            <Filter className="w-4 h-4 " />
         </button>
@@ -44,7 +44,7 @@ const TicketContent = () => {
         <input
           type="search"
           placeholder="Search Tickets"
-          className="w-full rounded-lg border bg-white py-2 pl-10 pr-4 outline-none focus:border-[#3C1DD1]"
+          className="w-full rounded-lg border bg-transparent py-2 pl-10 pr-4 outline-none focus:border-[#3C1DD1]"
         />
         <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
       </div>
